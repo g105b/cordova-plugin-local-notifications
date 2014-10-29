@@ -16,6 +16,7 @@ From a fresh fork at the original commit, the following actions have been made t
 git remote add katzer https://github.com/katzer/cordova-plugin-local-notifications.git
 git fetch katzer pull/283/head:283-cordova-36-fix && git merge 283-cordova-36-fix
 git fetch katzer pull/243/head:243-now-past-notification && git merge 243-now-past-notification
+git fetch katzer pull/232/head:232-froyo && git merge 232-froyo
 ```
 
 ********************************************************************************
