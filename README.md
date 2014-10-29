@@ -8,7 +8,7 @@ This repository is a fork from the original by [katzer](http://github.com/katzer
 
 In production, it is recommended to use the [original repository](http://github.com/katzer/cordova-plugin-local-notifications) and merge the pull requests in manually.
 
-### Original commit: b789cfca975b592396781f31b91995365d42a8d7
+### Original commit: [b789cfca97](https://github.com/g105b/cordova-plugin-local-notifications/commit/b789cfca975b592396781f31b91995365d42a8d7)
 
 From a fresh fork at the original commit, the following actions have been made to merge the pull requests in, making what can be seen as `master` here:
 
@@ -18,6 +18,12 @@ git fetch katzer pull/283/head:283-cordova-36-fix && git merge 283-cordova-36-fi
 git fetch katzer pull/243/head:243-now-past-notification && git merge 243-now-past-notification
 git fetch katzer pull/232/head:232-froyo && git merge 232-froyo
 ```
+
+Overview of merges made by this fork:
+
+* Fix for cordova 3.6, solving issue for iOS8 (Crash: [__NSCFString stringValue]: unrecognized selector sent to instance)
+* IOS: If notification is fired with date now or in the past, fire immediately
+* Backward compatibility for Froyo (API level 8)
 
 ********************************************************************************
 
