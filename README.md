@@ -1,6 +1,25 @@
 Cordova Local-Notification Plugin
 ==================================
 
+Why this fork exists
+--------------------
+
+This repository is a fork from the original by [katzer](http://github.com/katzer) which includes all the pull requests and fixes for bugs around the codebase by the open source community, allowing quick prototype projects to clone a single repository and not worry about merging third party code in order to test your prototype.
+
+In production, it is recommended to use the [original repository](http://github.com/katzer/cordova-plugin-local-notifications) and merge the pull requests in manually.
+
+### Original commit: b789cfca975b592396781f31b91995365d42a8d7
+
+From a fresh fork at the original commit, the following actions have been made to merge the pull requests in, making what can be seen as `master` here:
+
+```
+git remote add katzer https://github.com/katzer/cordova-plugin-local-notifications.git
+git fetch katzer pull/283/head:283-cordova-36-fix && git merge 283-cordova-36-fix
+git fetch katzer pull/243/head:243-now-past-notification && git merge 243-now-past-notification
+```
+
+********************************************************************************
+
 The essential purpose of local notifications is to enable an application to inform its users that it has something for them — for example, a message or an upcoming appointment — when the application isn’t running in the foreground.<br>
 They are scheduled by an application and delivered on the same device.
 
