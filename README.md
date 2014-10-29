@@ -68,9 +68,9 @@ The plugin can either be installed into the local development environment or clo
 Through the [Command-line Interface][CLI]:
 ```bash
 # ~~ from master ~~
-cordova plugin add https://github.com/katzer/cordova-plugin-local-notifications.git && cordova prepare
+cordova plugin add https://github.com/g105b/cordova-plugin-local-notifications.git && cordova prepare
 ```
-or to use the last stable version:
+or to use the last stable version **(note, this is the pre-forked repository)**:
 ```bash
 # ~~ stable version ~~
 cordova plugin add de.appplant.cordova.plugin.local-notification && cordova prepare
